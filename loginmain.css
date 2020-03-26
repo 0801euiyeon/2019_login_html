@@ -1,0 +1,150 @@
+
+nav ul{
+    overflow: hidden;
+    list-style: none;
+    margin: 0, auto;
+    padding: 0;
+    max-width: 100%;
+}
+nav li{
+    box-sizing: border-box;
+    float: left;
+    width: 20%;
+    color: cadetblue;
+}
+nav li a{
+    display: block;
+    padding-top: 0;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color:  cadetblue;
+
+}
+nav li a:hover {
+    background: rgb(159, 204, 193);
+    color: cornsilk;
+    border-radius: 20px;
+}
+#navleft{
+    float: right;
+    font-size: 14px;
+    text-align: right;
+    color: cadetblue;
+}
+.login_submit {
+    overflow: hidden;
+    list-style: none;
+    margin: 0, auto;
+    padding: 0;
+}
+#loginer
+{
+  padding: 20px 300px 80px;
+  margin-bottom: 80px;
+
+  border: 1px solid #bcbcbc;
+  text-align: center;
+}
+
+#title{
+    color: rgb(72, 151, 92);
+    text-align: center;
+    font-family: 'Calistoga', cursive;
+}
+
+header{
+    padding: 25px;
+    height: 90px;
+}
+#txtmin{
+    font-size: smaller;
+    color: rgba(158, 170, 170, 0.89);
+    text-align: center;
+}
+main {
+    margin-left:auto; margin-right:auto;
+    top: 0; bottom: 0;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center; 
+    
+}
+.login{
+    padding-left: 50%;
+    width: 400px;
+    text-align: center;
+    margin: 0, auto;
+    margin-bottom: 10px;
+    padding: 30px 20px 10px 20px;
+    overflow: hidden;
+    border: 1px solid rgb(150, 196, 161);
+    border-radius: 20px;
+    
+}
+#logintitle{
+    color: rgb(84, 117, 92);
+    text-align: center;
+   
+}
+
+#log1{
+    float: center;
+}
+#log2{
+    float: center;
+
+}
+
+#edit{
+    margin: 0 5px;
+    padding : 10px 40px;
+    align-content: center;
+    border-radius: 5px;
+    border:1px solid rgb(159, 204, 193);
+    background: rgb(137, 201, 166);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+
+#edit:hover {
+    background:  rgb(117, 138, 126);
+}
+
+#footer{
+    padding-left: 15%;
+}
+ ul {
+        list-style:none;
+        margin:0;
+        padding:0;
+    }
+
+
+li {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    border : 0;
+    float: left;
+}
+#signbtn{
+    margin: 0 5px;
+    padding : 5px 25px;
+    align-content: center;
+    border-radius: 5px;
+    border:1px solid rgb(202, 136, 127);
+    background: rgb(192, 79, 71);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+#signbtn:hover {
+    background:  rgb(88, 37, 33);
+}
+input{
+    padding: 10px 40px;
+}
